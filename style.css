@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(120, 67, 170);
+}
+
+header {
+    background-color: rgb(63, 32, 92);
+    height: auto;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    height: 25px;
+    background-color: rgb(106, 64, 146);
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 4px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+a:hover,
+ :active {
+    background-color: rgb(63, 32, 92);
+}
+
+div img {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+article img {
+    float: left;
+    padding: 40px;
+}
+
+section p img {
+    float: left;
+}
+
+p {
+    font-size: x-large;
+    font-family: 'Lacquer';
+    line-height: 1.6;
+    margin: 35px;
+    padding-left: 25px;
+}
+
+p span {
+    font-size: larger;
+    font-family: 'Trade Winds';
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(63, 32, 92);
+    text-align: center;
+    height: 75px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
