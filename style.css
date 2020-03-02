@@ -1,74 +1,81 @@
 body {
-    background-color: rgb(120, 67, 170);
+    background-color: #f5f5f5;
 }
 
 header {
-    background-color: rgb(63, 32, 92);
-    height: auto;
+    background-color: rgb(228, 226, 226);
+    height: 100px;
 }
 
 header img {
+    float: left;
     display: block;
-    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 175px;
     padding: 10px;
 }
 
-nav {
-    text-align: center;
-    height: 25px;
-    background-color: rgb(106, 64, 146);
-}
-
-nav ul li {
+ul li {
     display: inline-block;
-    margin: 0 auto;
-    padding-top: 4px;
+    padding-top: 35px;
+    padding-left: 50px;
 }
 
-nav a {
+a {
     text-decoration: none;
     color: black;
     padding: 5px;
 }
 
-a:hover,
- :active {
-    background-color: rgb(63, 32, 92);
-}
-
 div img {
     display: block;
     margin: 0 auto;
-    padding: 15px;
+    padding-top: 40px;
+}
+
+article {
+    margin-left: 190px;
 }
 
 article img {
     float: left;
-    padding: 40px;
+    padding-left: 10px;
 }
 
-section p img {
+section img {
+    margin-left: 190px;
     float: left;
 }
 
-p {
-    font-size: x-large;
-    font-family: 'Lacquer';
-    line-height: 1.6;
-    margin: 35px;
-    padding-left: 25px;
+p span {
+    font-size: xx-large;
+    display: inline;
+    white-space: pre-line;
 }
 
-p span {
-    font-size: larger;
-    font-family: 'Trade Winds';
-    padding: 10px;
+div p {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: auto;
+    overflow: hidden;
+    height: 290px;
+    width: 440px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+button {
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 footer {
-    background-color: rgb(63, 32, 92);
+    background-color: rgb(228, 226, 226);
     text-align: center;
     height: 75px;
     padding-top: 20px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
